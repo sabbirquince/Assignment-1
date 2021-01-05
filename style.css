@@ -1,0 +1,192 @@
+/* base */
+
+/* font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+#583d72 
+#f4f4f4
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif
+}
+
+/* container */
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/************* typography ***************/
+
+.heading,
+.heading-about {
+    color: #583d72;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.heading {
+    font-size: 70px;
+}
+
+.heading-color {
+    color: #ff7e67;
+    margin-bottom: 20px;
+}
+
+.heading-about {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.paragraph {
+    color: dimgray;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.content-heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    color: #583d72;
+}
+
+.content-heading-sub {
+    font-size: 22.5px;
+    color: #583d72;
+    padding: 10px 0;
+}
+
+/************** section navigation **************/
+
+.navigation {
+    height: 100px;
+}
+
+.list {
+    list-style: none;
+    float: right;
+    margin-top: 2.7%;
+}
+
+.list-item {
+    float: left;
+    margin-left: 35px;
+    color: #583d72;
+    font-weight: 600;
+}
+
+/***************** section details ****************/
+
+.details {
+    margin-top: 20px;
+    height: auto;
+}
+
+.details::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.intro {
+    width: 50%;
+    float: left;
+}
+
+.intro-picture {
+    margin-top: 120px;
+}
+
+.intro-img {
+    width: 85%;
+    height: 85%;
+}
+
+.about {
+    width: 50%;
+    float: left;
+}
+
+.about-text {
+    margin: 105px 25px 0 150px;
+}
+
+/**************** section content ***************/
+
+.content {
+    text-align: center;
+    padding: 120px 0;
+    background-color: #ecf4f3;
+    margin: 100px 0;
+}
+
+.content-details {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.content-details::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    width: 30%;
+    float: left;
+}
+
+.content-box:not(:last-child) {
+    margin-right: 5%;
+}
+
+.con-img {
+    width: 100%;
+    height: 100%;
+}
+
+/**************** section cta ***************/
+
+.cta {
+    background-color: rgb(105, 158, 202);
+}
+
+.footer {
+    background-color: rgb(218, 145, 231);
+}
+
+
+
+/* buttons */
+
+.btn:link,
+.btn:visited {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px 40px;
+    margin-top: 25px;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom, #f56046, #e48372);
+}
+
+/* utilities */
+
+.set {
+    margin-top: 15px;
+    margin-left: -54px;
+}

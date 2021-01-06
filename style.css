@@ -76,6 +76,19 @@ h5,
     padding: 10px 0;
 }
 
+h5 {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.huge-text-2 {
+    font-size: 37.5px;
+    font-weight: 600;
+    color: #583d72;
+    padding: 15px 0;
+}
+
 /************** section navigation **************/
 
 .navigation {
@@ -262,7 +275,7 @@ h5,
     float: left;
     color: whitesmoke;
     margin-top: 13px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .cta-btn {
@@ -275,13 +288,6 @@ h5,
 .footer {
     padding: 75px 0;
     text-align: center;
-}
-
-.huge-text-2 {
-    font-size: 37.5px;
-    font-weight: 700;
-    color: #583d72;
-    padding: 15px 0;
 }
 
 .list-2 {
@@ -300,11 +306,7 @@ h5,
     height: 45px;
 }
 
-h5 {
-    color: grey;
-    text-transform: uppercase;
-    font-size: 20px;
-}
+
 
 /* buttons */
 
